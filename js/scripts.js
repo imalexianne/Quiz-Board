@@ -51,3 +51,5 @@ if(q10==" if (i != 5)")
 {
    marks=marks+2;
 }
+alert("your score is:"+marks);
+}
