@@ -31,3 +31,23 @@ if(q5=="true")
 {
    marks=marks+2;
 }
+if(q6=="alertBox Hello World")
+{
+   marks=marks+2;
+   }
+if(q7=="function = myFunction()")
+{
+   marks=marks+2;
+   }
+if(q8=="call myFunction()")
+{
+   marks=marks+2;
+}
+if(q9=="if i = 5")
+{
+   marks=marks+2;
+}
+if(q10==" if (i != 5)")
+{
+   marks=marks+2;
+}
