@@ -8,3 +8,4 @@ function mytest()
     var q6=document.forms["myform"]["answer6"].value;
     var q7=document.forms["myform"]["answer7"].value;
     var q8=document.forms["myform"]["answer8"].value;
+    var q9=document.forms["myform"]["answer9"].value;
