@@ -10,3 +10,4 @@ function mytest()
     var q8=document.forms["myform"]["answer8"].value;
     var q9=document.forms["myform"]["answer9"].value;
     var q10=document.forms["myform"]["answer10"].value;
+    var marks=0;
