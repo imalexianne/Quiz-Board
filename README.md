@@ -24,3 +24,11 @@ I'm IMANIRAKARAMA Alexianne, a full time student in Moringa school (WeCode) wher
 ### User story
 
 As a User I want to answer questions in this Quiz-Bord, When I click on the correct answer, 2 marks are added but when I click on the wrong answer, nothing will  be added on marks. Finishing answering I submit while clicking on  the submit button, and the total marks will be shown as the score.
+
+### Technologies used
+
+I used html,javascript,css,markdown languages, jquery and bootstrap and visual studio for the terminal or platform.
+
+### My current contact
+E-mail:imanirax@yahoo.fr
+Tel: +250783351129
