@@ -4,3 +4,4 @@ function mytest()
     var q2=document.forms["myform"]["answer2"].value;
     var q3=document.forms["myform"]["answer3"].value;
     var q4=document.forms["myform"]["answer4"].value;
+    var q5=document.forms["myform"]["answer5"].value;
