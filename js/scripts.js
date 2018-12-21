@@ -11,3 +11,23 @@ function mytest()
     var q9=document.forms["myform"]["answer9"].value;
     var q10=document.forms["myform"]["answer10"].value;
     var marks=0;
+    if(q1=="script")
+     {
+      marks=marks+2;
+   }
+   if(q2=="Hypertext markup language")
+{
+   marks=marks+2;
+   }
+if(q3=="The head section")
+{
+   marks=marks+2;
+}
+if(q4=="Microsoft")
+{
+   marks=marks+2;
+}
+if(q5=="true")
+{
+   marks=marks+2;
+}
