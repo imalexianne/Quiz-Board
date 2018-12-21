@@ -36,3 +36,11 @@ Tel: +250783351129
  ### link to live site
 
  https://github.com/imalexianne/Quiz-Board
+
+### copyright and license information
+
+```
+This project is licensed under the term MIT license.
+Copyright (c) {2018} **{IMANIRAKARAMA Alexianne}**
+
+```
