@@ -20,3 +20,7 @@ I'm IMANIRAKARAMA Alexianne, a full time student in Moringa school (WeCode) wher
 | when you click on the correct answer, 2 marks are added but not shown.          | click | nothing |
 | when you click on the submit button  the score will be shown   | click submit|  your score is40  |
 | 
+
+### User story
+
+As a User I want to answer questions in this Quiz-Bord, When I click on the correct answer, 2 marks are added but when I click on the wrong answer, nothing will  be added on marks. Finishing answering I submit while clicking on  the submit button, and the total marks will be shown as the score.
