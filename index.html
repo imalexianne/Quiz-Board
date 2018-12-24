@@ -4,12 +4,17 @@
       <title>check-box</title>
       <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
-      <script src="js/scripts.js"></script> 
+      
    </head>
    <body>
-        <div class="container">
+      <div class="box">
+        
+           <div class="well">
+              <div class="panel panel-default">
+                
+                 <div class="panel-heading">
             <h1>QUIZ-BOARD</h1>
+                  </div>
             <p>There are some instructions of doing this Quiz:</p>
             <ul>
                <li>Each question has 2 point and the quiz will be worked on 8 points</li>
@@ -18,25 +23,45 @@
                <li>After answering all qustions click on submit button.</li>
 
             </ul>
-         </div>
+            </div>
+            </div>
+         
          <div id="blanks">
             <form>
                <div class="form-group">
+                  <div class="well">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
                   <label>1. Inside which HTML element do we put the JavaScript?</label><br>
+                        </div>
                   <input type="radio" name="answer1" value="wrong"> js <br>
                   <input type="radio" name="answer1" value="right">  script <br>
                   <input type="radio" name="answer1" value="wrong"> javascript <br>
-                  <input type="radio" name="answer1" value="wrong">  none <br>                         
+                  <input type="radio" name="answer1" value="wrong">  none <br>
+                       </div>
+                     </div>
+                  </div>                         
                </div>  
                <div class="form-group">
+                  <div class="well">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
                   <label >2. What does HTML stand for?</label><br>
+                          </div>
                   <input type="radio" name="answer2" value="wrong"> Markup language <br>
-                  <input type="radio" name="answer2" value="right"> Hypertext<br>
-                  <input type="radio" name="answer2" value="wrong">  Hypertext markup language <br>
+                  <input type="radio" name="answer2" value="wrong"> Hypertext<br>
+                  <input type="radio" name="answer2" value="right">  Hypertext markup language <br>
                   <input type="radio" name="answer2" value="wrong">  none <br>
+                       </div>
+                     <div>
+                  </div>
                </div>
                <div class="form-group">
+                  <div class="well">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
                   <label>3. Where is the correct place to insert a JavaScript?</label><br>
+                         </div>
                   <div class="radio">
                      <label>
                      <input type="radio" name="answer3" value="wrong" >
@@ -46,18 +71,24 @@
                   <div class="radio">
                      <label>
                      <input type="radio" name="answer3" value="wrong">
-                     The <head> section
+                     The head section
                      </label>
                   </div>
                   <div class="radio">
                      <label>
                      <input type="radio" name="answer3" value="right">
-                     The <body> section
+                     The body section
                      </label>
+                  </div>
+                  </div>
                   </div>
                </div>
                <div class="form-group">
+                  <div class="well">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
                   <label>4. Who is making the Web standards?</label><br>
+                         </div>
                   <div class="radio">
                      <label>
                      <input type="radio" name="answer4" value="wrong">
@@ -76,15 +107,20 @@
                      The World Wide Web Consortium
                      </label><br>
                   </div>
+                  </div>
+                  </div>
                </div>
-               
+               <div class="submission">
                <button type="submit" class="btn">Submit</button>
                <div class="output">
                   <span id="display">Your score is:</span>
+                  </div>
+               </div>
                </div>
             </form>
             
          </div>
-      
+         <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+         <script src="js/scripts.js"></script> 
    </body>
 </html>

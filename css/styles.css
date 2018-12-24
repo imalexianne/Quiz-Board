@@ -1,3 +1,29 @@
 .output{
     display:none
 }
+*{
+    color: black;
+    box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+    }
+    .box{
+        background-color: teal;
+        width: 900px;
+        height: 700PX;
+        width: 90%;
+        height: 80%;
+        border: 25px solid #87CEFA;
+        padding: 25px;
+        margin-left: 150px;
+        margin-top: 40px;
+        margin-left:40px; 
+    }
+    body{
+      background-color:navajowhite;
+    }
+    .submission{
+        text-align: center;
+        background-color:tan;
+    }

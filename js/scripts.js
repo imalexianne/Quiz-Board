@@ -9,19 +9,19 @@ $(document).ready(function (){
     if(q1=="right")
      {
       marks=marks+2;
-   }
+     }
    if(q2=="right")
-{
+     {
    marks=marks+2;
-   }
-// if(q3=="right")
-// {
-//    marks=marks+2;
-// }
-// if(q4=="right")
-// {
-//    marks=marks+2;
-// }
+     }
+ if(q3=="right")
+     {
+  marks=marks+2;
+     }
+if(q4=="right")
+     {
+  marks=marks+2;
+     }
 
 $(".output").show();
 $("#display").text("Your score is: " + marks);
