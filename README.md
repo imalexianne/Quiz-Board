@@ -13,7 +13,6 @@ To access on this project, you have to use google chrome and text-editor.
 ### My information
 
 I'm IMANIRAKARAMA Alexianne, a full time student in Moringa school (WeCode) where I'm learning different languages to make projects.
-
 ### BDD
 | Behavior                                                         | Input     |  Output      |
 | :----------------------------------------------------------------| :--------:| -----------: |
