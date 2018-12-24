@@ -27,35 +27,43 @@
             </div>
          
          <div id="blanks">
+            
             <form>
+                  <div class="cont">
+               <div id="row">
+                  <div class="col-sm12 col-md-6">
+                 
                <div class="form-group">
                   <div class="well">
                      <div class="panel panel-default">
                         <div class="panel-heading">
                   <label>1. Inside which HTML element do we put the JavaScript?</label><br>
                         </div>
-                  <input type="radio" name="answer1" value="wrong"> js <br>
-                  <input type="radio" name="answer1" value="right">  script <br>
-                  <input type="radio" name="answer1" value="wrong"> javascript <br>
-                  <input type="radio" name="answer1" value="wrong">  none <br>
+                  <input type="radio" name="answer1" value="wrong" required> js <br>
+                  <input type="radio" name="answer1" value="right" required>  script <br>
+                  <input type="radio" name="answer1" value="wrong" required> javascript <br>
+                  <input type="radio" name="answer1" value="wrong" required>  none <br>
                        </div>
                      </div>
                   </div>                         
-               </div>  
+                 
                <div class="form-group">
                   <div class="well">
                      <div class="panel panel-default">
                         <div class="panel-heading">
                   <label >2. What does HTML stand for?</label><br>
                           </div>
-                  <input type="radio" name="answer2" value="wrong"> Markup language <br>
-                  <input type="radio" name="answer2" value="wrong"> Hypertext<br>
-                  <input type="radio" name="answer2" value="right">  Hypertext markup language <br>
-                  <input type="radio" name="answer2" value="wrong">  none <br>
+                  <input type="radio" name="answer2" value="wrong" required> Markup language <br>
+                  <input type="radio" name="answer2" value="wrong" required> Hypertext<br>
+                  <input type="radio" name="answer2" value="right" required>  Hypertext markup language <br>
+                  <input type="radio" name="answer2" value="wrong" required>  none <br>
                        </div>
-                     <div>
+                     </div>
                   </div>
                </div>
+            </div>
+               <div class="col-sm-12 col-md-6">
+               
                <div class="form-group">
                   <div class="well">
                      <div class="panel panel-default">
@@ -64,19 +72,19 @@
                          </div>
                   <div class="radio">
                      <label>
-                     <input type="radio" name="answer3" value="wrong" >
+                     <input type="radio" name="answer3" value="wrong" required>
                      Both the <head> section and the <body> section are correct
                      </label>
                   </div>
                   <div class="radio">
                      <label>
-                     <input type="radio" name="answer3" value="wrong">
+                     <input type="radio" name="answer3" value="wrong" required>
                      The head section
                      </label>
                   </div>
                   <div class="radio">
                      <label>
-                     <input type="radio" name="answer3" value="right">
+                     <input type="radio" name="answer3" value="right" required>
                      The body section
                      </label>
                   </div>
@@ -91,33 +99,42 @@
                          </div>
                   <div class="radio">
                      <label>
-                     <input type="radio" name="answer4" value="wrong">
+                     <input type="radio" name="answer4" value="wrong" required>
                      Google
                      </label>
                   </div>
                   <div class="radio">
                      <label>
-                     <input type="radio" name="answer4" value="wrong">
+                     <input type="radio" name="answer4" value="wrong" required>
                      Microsoft
                      </label>
                   </div>
                   <div class="radio">
                      <label>
-                     <input type="radio" name="answer4" value="right">
+                     <input type="radio" name="answer4" value="right"required>
                      The World Wide Web Consortium
                      </label><br>
                   </div>
                   </div>
                   </div>
                </div>
+               </div>
+            </div>
                <div class="submission">
                <button type="submit" class="btn">Submit</button>
+               </div>
+               </div>
                <div class="output">
                   <span id="display">Your score is:</span>
                   </div>
+               
+               <div id="quiz"></div>
                </div>
                </div>
+            
+               
             </form>
+            
             
          </div>
          <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
