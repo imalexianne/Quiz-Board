@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>quiz-board</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <!--form for questions-->>
+      <div class="box">
+         <div class="well">
+            <div class="panel panel-default">
+               <div class="panel-heading">
+                 <h1>QUIZ-BOARD</h1>
+               </div>
+               <!--instructions-->>
+               <p>Instructions of doing this Quiz:</p>
+               <p>Each question has 2 point and the quiz will be worked on 8 points</li>
+               <p>Select one answer for each question.</p>
+               <p>Answer all questions.</p>
+               <p>After answering all questions click on submit button to see the score.</p>
+            </div>
+         </div>   
+         <div id="blanks">
+            <!--form-->>     
+            <form>
+               <div class="cont">
+                  <div id="row">
+                     <div class="col-sm12 col-md-6">
+                        <!--question 1 -->
+                        <div class="form-group">
+                           <div class="well">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading">
+                                    <label>1. Inside which HTML element do we put the JavaScript?</label><br>
+                                 </div>
+                                 <input type="radio" name="answer1" value="wrong" required> js <br>
+                                 <input type="radio" name="answer1" value="right" required>  script <br>
+                                 <input type="radio" name="answer1" value="wrong" required> javascript <br>
+                                 <input type="radio" name="answer1" value="wrong" required>  none <br>
+                              </div>
+                           </div>
+                        </div>                         
+                        <!--questio2-->>
+                        <div class="form-group">
+                           <div class="well">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading">
+                                    <label >2. What does HTML stand for?</label><br>
+                                 </div>
+                                 <input type="radio" name="answer2" value="wrong" required> Markup language <br>
+                                 <input type="radio" name="answer2" value="wrong" required> Hypertext<br>
+                                 <input type="radio" name="answer2" value="right" required>  Hypertext markup language <br>
+                                 <input type="radio" name="answer2" value="wrong" required>  none <br>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-12 col-md-6">
+                      <!--question3-->
+                        <div class="form-group">
+                           <div class="well">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading">
+                                    <label>3. Where is the correct place to insert a JavaScript?</label><br>
+                                 </div>
+                                 <div class="radio">
+                                    <label>
+                                       <input type="radio" name="answer3" value="wrong" required>
+                                       Both the <head> section and the <body> section are correct
+                                    </label>
+                                 </div>
+                                 <div class="radio">
+                                    <label>
+                                       <input type="radio" name="answer3" value="wrong" required>
+                                       The head section
+                                    </label>
+                                 </div>
+                                 <div class="radio">
+                                    <label>
+                                       <input type="radio" name="answer3" value="right" required>
+                                       The body section
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!--question4-->
+                       <div class="form-group">
+                           <div class="well">
+                              <div class="panel panel-default">
+                                 <div class="panel-heading">
+                                    <label>4. Who is making the Web standards?</label><br>
+                                 </div>
+                                 <div class="radio">
+                                    <label>
+                                       <input type="radio" name="answer4" value="wrong" required>
+                                       Google
+                                    </label>
+                                 </div>
+                                 <div class="radio">
+                                    <label>
+                                       <input type="radio" name="answer4" value="wrong" required>
+                                       Microsoft
+                                    </label>
+                                 </div>
+                                 <div class="radio">
+                                    <label>
+                                       <input type="radio" name="answer4" value="right"required>
+                                       The World Wide Web Consortium
+                                    </label><br>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="submission">
+                        <button type="submit" class="btn">Submit</button>
+                     </div>
+                  </div>
+                  <!--score-->>
+                  <div class="output">
+                     <span id="display">Your score is:</span>
+                  </div>
+                       
+                  <div id="quiz"></div>
+               </div>
+            </form>
+         </div>
+      </div>
+      <!--link to back index.html page-->>
+      <div id="submit">
+         <button type="submit"><a href="index.html">back</a></button>
+      </div>           
+        <!--javascript links-->>    
+      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+      <script src="js/scripts.js"></script> 
+      <!--social-->
+      <div class="social">
+         <a href="https://github.com/imalexianne" class="fa fa-github"></a>
+         <a href="https://www.facebook.com/imanirakarama.alexianne" class="fa fa-facebook"></a>
+         <a href="https://www.instagram.com/imanirakaramaalexianne/?hl=en" class="fa fa-instagram"></a>  
+      </div>              
+   </body>
+   <footer>copyright@2018 by IMANIRAKARAMA Alexianne.</footer>
+</html>

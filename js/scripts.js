@@ -15,7 +15,7 @@ event.preventDefault();
 })
 });
 
-// /Busines Logic
+//Busines Logic
 function calculateScore(answers){
    q1 = answers[0]
    q2 = answers[1]

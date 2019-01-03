@@ -31,3 +31,30 @@
         text-align: center;
         background-color: tan;
     }
+    p{
+        padding-left: 30%;
+    }
+    footer{
+        margin-top: 10px;
+        text-align:center;
+    }
+    .social{
+        margin-top: 10px;
+        text-align:center;    
+    }
+    #submit {
+        text-align: center;
+        color:black;
+        font-size: 30px;
+        width: 135px;
+        height: 60px;
+        border: none;
+       
+        background: #0c0 url(image) 0 0 no-repeat; 
+       }
+       h2{
+           text-align: center;
+       }
+       .logo{
+           text-align: center;
+       }

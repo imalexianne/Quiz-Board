@@ -1,143 +1,44 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>check-box</title>
+      <title>quiz-board</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      
+      <link href="css/styles1.css" rel="stylesheet" type="text/css">
    </head>
    <body>
+      <h2>javascript quiz</h2>
+      <!--quiz-board login form!-->
+      <div class="logo">
+      <img src="./image/javascript.jpeg" alt="image" width="50%" height="310px">
+      </div>
       <div class="box">
-        
-           <div class="well">
-              <div class="panel panel-default">
-                
-                 <div class="panel-heading">
-            <h1>QUIZ-BOARD</h1>
-                  </div>
-            <p>There are some instructions of doing this Quiz:</p>
-            <ul>
-               <li>Each question has 2 point and the quiz will be worked on 8 points</li>
-               <li>Select one answer for each question.</li>
-               <li>Answer all questions.</li>
-               <li>After answering all qustions click on submit button.</li>
-
-            </ul>
-            </div>
-            </div>
-         
-         <div id="blanks">
-            
-            <form>
-                  <div class="cont">
-               <div id="row">
-                  <div class="col-sm12 col-md-6">
-                 
-               <div class="form-group">
-                  <div class="well">
-                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                  <label>1. Inside which HTML element do we put the JavaScript?</label><br>
-                        </div>
-                  <input type="radio" name="answer1" value="wrong" required> js <br>
-                  <input type="radio" name="answer1" value="right" required>  script <br>
-                  <input type="radio" name="answer1" value="wrong" required> javascript <br>
-                  <input type="radio" name="answer1" value="wrong" required>  none <br>
-                       </div>
-                     </div>
-                  </div>                         
-                 
-               <div class="form-group">
-                  <div class="well">
-                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                  <label >2. What does HTML stand for?</label><br>
-                          </div>
-                  <input type="radio" name="answer2" value="wrong" required> Markup language <br>
-                  <input type="radio" name="answer2" value="wrong" required> Hypertext<br>
-                  <input type="radio" name="answer2" value="right" required>  Hypertext markup language <br>
-                  <input type="radio" name="answer2" value="wrong" required>  none <br>
-                       </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-               <div class="col-sm-12 col-md-6">
+         <form style="border:1px solid #ccc">
                
-               <div class="form-group">
-                  <div class="well">
-                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                  <label>3. Where is the correct place to insert a JavaScript?</label><br>
-                         </div>
-                  <div class="radio">
-                     <label>
-                     <input type="radio" name="answer3" value="wrong" required>
-                     Both the <head> section and the <body> section are correct
-                     </label>
+            <div class="well,">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <H2>Please fill in this form and submit it to access on questions.</H2>
                   </div>
-                  <div class="radio">
-                     <label>
-                     <input type="radio" name="answer3" value="wrong" required>
-                     The head section
-                     </label>
-                  </div>
-                  <div class="radio">
-                     <label>
-                     <input type="radio" name="answer3" value="right" required>
-                     The body section
-                     </label>
-                  </div>
-                  </div>
-                  </div>
-               </div>
-               <div class="form-group">
-                  <div class="well">
-                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                  <label>4. Who is making the Web standards?</label><br>
-                         </div>
-                  <div class="radio">
-                     <label>
-                     <input type="radio" name="answer4" value="wrong" required>
-                     Google
-                     </label>
-                  </div>
-                  <div class="radio">
-                     <label>
-                     <input type="radio" name="answer4" value="wrong" required>
-                     Microsoft
-                     </label>
-                  </div>
-                  <div class="radio">
-                     <label>
-                     <input type="radio" name="answer4" value="right"required>
-                     The World Wide Web Consortium
-                     </label><br>
-                  </div>
-                  </div>
-                  </div>
-               </div>
+                  <!--e-mail-->
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+                  <!--password-->>
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                  <!--repeat password-->
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                  <label>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+                  <!--submit-->
+                 <button type="submit"><a href="index1.html">submit</a></button>
                </div>
             </div>
-               <div class="submission">
-               <button type="submit" class="btn">Submit</button>
-               </div>
-               </div>
-               <div class="output">
-                  <span id="display">Your score is:</span>
-                  </div>
-               
-               <div id="quiz"></div>
-               </div>
-               </div>
-            
-               
-            </form>
-            
-            
-         </div>
-         <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
-         <script src="js/scripts.js"></script> 
-   </body>
+          
+         </form>
+             
+      </div>
 </html>
