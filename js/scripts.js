@@ -8,7 +8,7 @@ $(document).ready(function (){
       var marks = [q1, q2, q3, q4];
       var score = calculateScore(marks);
 $(".output").show();
-$("#display").text("Your score is: " + score);
+$("#display").text("Your score is: " + score +"/8pts");
 document.getElementById("quiz").style.display="block";
 $(".cont").fadeOut();
 event.preventDefault();
